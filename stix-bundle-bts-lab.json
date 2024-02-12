@@ -1,0 +1,915 @@
+{
+    "type": "bundle",
+    "id": "bundle--840e5c34-5b51-4436-b458-5fc48f915c87",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity-0002",
+            "name": "qradar-bts-lab"
+        },
+        {
+            "id": "observed-data--6d2227c1-d19b-4170-bb28-478fc1b62c54",
+            "type": "observed-data",
+            "created_by_ref": "identity-0002",
+            "created": "2024-02-12T14:30:41.396Z",
+            "modified": "2024-02-12T14:30:41.396Z",
+            "objects": {
+                "0": {
+                    "type": "x-qradar",
+                    "application_id": "9999",
+                    "credibility": 5,
+                    "domain_id": 0,
+                    "first_packet_time": "1707667551000",
+                    "direction": "R2R",
+                    "flow_interface_id": [
+                        "55"
+                    ],
+                    "flow_source": [
+                        "qconsole"
+                    ],
+                    "flow_type": "Standard Flow",
+                    "geographic": "NorthAmerica.UnitedStates",
+                    "has_offense": "false",
+                    "flow_interface": [
+                        "qconsole:gateway"
+                    ],
+                    "last_packet_time": "1707667614000",
+                    "qid": 53268764,
+                    "relevance": 1,
+                    "severity": 1
+                },
+                "1": {
+                    "type": "software",
+                    "name": "Web.Web.Misc"
+                },
+                "2": {
+                    "type": "x-oca-event",
+                    "outcome": "Web",
+                    "network_ref": "3",
+                    "action": "Web.HTTPWeb"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "dst_byte_count": 0,
+                    "dst_ref": "4",
+                    "dst_packets": 0,
+                    "dst_port": 80,
+                    "protocols": [
+                        "tcp"
+                    ],
+                    "src_byte_count": 420,
+                    "src_ref": "6",
+                    "src_packets": 7,
+                    "src_port": 12657,
+                    "ipfix": {
+                        "flowId": 1899058211480187789
+                    }
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "193.32.162.189"
+                },
+                "5": {
+                    "type": "x-ibm-finding",
+                    "dst_ip_ref": "4",
+                    "src_ip_ref": "6",
+                    "start": "2024-02-11T16:05:51.000Z",
+                    "end": "2024-02-11T16:37:51.000Z"
+                },
+                "6": {
+                    "type": "ipv4-addr",
+                    "value": "130.198.114.72"
+                }
+            },
+            "first_observed": "2024-02-11T16:05:51.000Z",
+            "last_observed": "2024-02-11T16:37:51.000Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--199b97fa-fc39-497d-9126-d7ee6f363282",
+            "type": "observed-data",
+            "created_by_ref": "identity-0002",
+            "created": "2024-02-12T14:30:41.400Z",
+            "modified": "2024-02-12T14:30:41.400Z",
+            "objects": {
+                "0": {
+                    "type": "x-qradar",
+                    "application_id": "9999",
+                    "credibility": 10,
+                    "domain_id": 0,
+                    "first_packet_time": "1707667552000",
+                    "direction": "L2R",
+                    "flow_interface_id": [
+                        "55"
+                    ],
+                    "flow_source": [
+                        "qconsole"
+                    ],
+                    "flow_type": "Standard Flow",
+                    "geographic": "other",
+                    "has_offense": "false",
+                    "flow_interface": [
+                        "qconsole:gateway"
+                    ],
+                    "last_packet_time": "1707667615000",
+                    "qid": 53268764,
+                    "relevance": 10,
+                    "severity": 1
+                },
+                "1": {
+                    "type": "software",
+                    "name": "Web.Web.Misc"
+                },
+                "2": {
+                    "type": "x-oca-event",
+                    "outcome": "Web",
+                    "network_ref": "3",
+                    "action": "Web.HTTPWeb"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "dst_byte_count": 0,
+                    "dst_ref": "4",
+                    "dst_packets": 0,
+                    "dst_port": 80,
+                    "protocols": [
+                        "tcp"
+                    ],
+                    "src_byte_count": 420,
+                    "src_ref": "6",
+                    "src_packets": 7,
+                    "src_port": 35578,
+                    "ipfix": {
+                        "flowId": 8403609144050583148
+                    }
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "193.32.162.189"
+                },
+                "5": {
+                    "type": "x-ibm-finding",
+                    "dst_ip_ref": "4",
+                    "src_ip_ref": "6",
+                    "start": "2024-02-11T16:05:52.000Z",
+                    "end": "2024-02-11T16:36:52.000Z"
+                },
+                "6": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.60.100"
+                }
+            },
+            "first_observed": "2024-02-11T16:05:52.000Z",
+            "last_observed": "2024-02-11T16:36:52.000Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--d007371b-14a1-4518-a48f-881f6aaee269",
+            "type": "observed-data",
+            "created_by_ref": "identity-0002",
+            "created": "2024-02-12T14:30:41.400Z",
+            "modified": "2024-02-12T14:30:41.400Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "Event: Potential DoS Attack via Web Server Response Time",
+                    "outcome": "Anomaly",
+                    "category": [
+                        "Time Series"
+                    ],
+                    "provider": "Anomaly Detection Engine",
+                    "agent": "Anomaly Detection Engine-2 :: qconsole",
+                    "created": "2024-02-12T14:27:00.000Z",
+                    "network_ref": "3",
+                    "original_ref": "5"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 53750003,
+                    "category_id": 11003,
+                    "high_level_category_id": 11000,
+                    "log_source_id": 66,
+                    "device_type": 207,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100221",
+                        "100277",
+                        "100272",
+                        "100227",
+                        "100223"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2024-02-12T14:27:00.000Z",
+                    "end": "2024-02-12T14:27:00.000Z",
+                    "dst_ip_ref": "4",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 4,
+                    "severity": 6,
+                    "src_geolocation": "other",
+                    "dst_geolocation": "other",
+                    "rule_names": [
+                        "Destination Asset Weight is Low",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "Load Basic Building Blocks",
+                        "Source Asset Weight is Low",
+                        "Source Address is a Bogon IP"
+                    ]
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_port": 0,
+                    "dst_ref": "4",
+                    "dst_port": 0,
+                    "protocols": [
+                        "hopopt"
+                    ]
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "193.32.162.189"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "AAAACAAAAAcAAAAAAAAAAO+/vSDvv73vv70=",
+                    "mime_type": "text/plain"
+                }
+            },
+            "first_observed": "2024-02-12T14:27:00.000Z",
+            "last_observed": "2024-02-12T14:27:00.000Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--a70ca7c9-915a-45ce-9bb2-e947265897f8",
+            "type": "observed-data",
+            "created_by_ref": "identity-0002",
+            "created": "2024-02-12T14:30:41.400Z",
+            "modified": "2024-02-12T14:30:41.400Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "Event: Potential DoS Attack via Web Server Response Time",
+                    "outcome": "Anomaly",
+                    "category": [
+                        "Time Series"
+                    ],
+                    "provider": "Anomaly Detection Engine",
+                    "agent": "Anomaly Detection Engine-2 :: qconsole",
+                    "created": "2024-02-12T14:27:00.000Z",
+                    "network_ref": "3",
+                    "original_ref": "5"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 53750003,
+                    "category_id": 11003,
+                    "high_level_category_id": 11000,
+                    "log_source_id": 66,
+                    "device_type": 207,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100221",
+                        "100277",
+                        "100272",
+                        "100227",
+                        "100223"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2024-02-12T14:27:00.000Z",
+                    "end": "2024-02-12T14:27:00.000Z",
+                    "dst_ip_ref": "4",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 4,
+                    "severity": 6,
+                    "src_geolocation": "other",
+                    "dst_geolocation": "other",
+                    "rule_names": [
+                        "Destination Asset Weight is Low",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "Load Basic Building Blocks",
+                        "Source Asset Weight is Low",
+                        "Source Address is a Bogon IP"
+                    ]
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_port": 0,
+                    "dst_ref": "4",
+                    "dst_port": 0,
+                    "protocols": [
+                        "hopopt"
+                    ]
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "193.32.162.189"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "AAAABAAAAAcAAAAAAAAAAO+/vSDvv73vv70=",
+                    "mime_type": "text/plain"
+                }
+            },
+            "first_observed": "2024-02-12T14:27:00.000Z",
+            "last_observed": "2024-02-12T14:27:00.000Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--14442757-dafd-45ae-b38e-3e5e4e976610",
+            "type": "observed-data",
+            "created_by_ref": "identity-0002",
+            "created": "2024-02-12T14:30:41.400Z",
+            "modified": "2024-02-12T14:30:41.400Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "Event: Potential DoS Attack via Web Server Response Time",
+                    "outcome": "Anomaly",
+                    "category": [
+                        "Time Series"
+                    ],
+                    "provider": "Anomaly Detection Engine",
+                    "agent": "Anomaly Detection Engine-2 :: qconsole",
+                    "created": "2024-02-12T14:29:00.000Z",
+                    "network_ref": "3",
+                    "original_ref": "5"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 53750003,
+                    "category_id": 11003,
+                    "high_level_category_id": 11000,
+                    "log_source_id": 66,
+                    "device_type": 207,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100221",
+                        "100277",
+                        "100272",
+                        "100227",
+                        "100223"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2024-02-12T14:29:00.000Z",
+                    "end": "2024-02-12T14:29:00.000Z",
+                    "dst_ip_ref": "4",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 4,
+                    "severity": 6,
+                    "src_geolocation": "other",
+                    "dst_geolocation": "other",
+                    "rule_names": [
+                        "Destination Asset Weight is Low",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "Load Basic Building Blocks",
+                        "Source Asset Weight is Low",
+                        "Source Address is a Bogon IP"
+                    ]
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_port": 0,
+                    "dst_ref": "4",
+                    "dst_port": 0,
+                    "protocols": [
+                        "hopopt"
+                    ]
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "193.32.162.189"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "AAAACAAAAAdCeO+/ve+/vWzvv70AAO+/vSDvv73vv70=",
+                    "mime_type": "text/plain"
+                }
+            },
+            "first_observed": "2024-02-12T14:29:00.000Z",
+            "last_observed": "2024-02-12T14:29:00.000Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--95db9ee8-c497-4465-9ee2-d31d9ef70981",
+            "type": "observed-data",
+            "created_by_ref": "identity-0002",
+            "created": "2024-02-12T14:30:41.400Z",
+            "modified": "2024-02-12T14:30:41.400Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "Event: Potential DoS Attack via Web Server Response Time",
+                    "outcome": "Anomaly",
+                    "category": [
+                        "Time Series"
+                    ],
+                    "provider": "Anomaly Detection Engine",
+                    "agent": "Anomaly Detection Engine-2 :: qconsole",
+                    "created": "2024-02-12T14:29:00.000Z",
+                    "network_ref": "3",
+                    "original_ref": "5"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 53750003,
+                    "category_id": 11003,
+                    "high_level_category_id": 11000,
+                    "log_source_id": 66,
+                    "device_type": 207,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100221",
+                        "100277",
+                        "100272",
+                        "100227",
+                        "100223"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2024-02-12T14:29:00.000Z",
+                    "end": "2024-02-12T14:29:00.000Z",
+                    "dst_ip_ref": "4",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 4,
+                    "severity": 6,
+                    "src_geolocation": "other",
+                    "dst_geolocation": "other",
+                    "rule_names": [
+                        "Destination Asset Weight is Low",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "Load Basic Building Blocks",
+                        "Source Asset Weight is Low",
+                        "Source Address is a Bogon IP"
+                    ]
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_port": 0,
+                    "dst_ref": "4",
+                    "dst_port": 0,
+                    "protocols": [
+                        "hopopt"
+                    ]
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "193.32.162.189"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "AAAABAAAAAdCeO+/ve+/vWzvv70AAO+/vSDvv73vv70=",
+                    "mime_type": "text/plain"
+                }
+            },
+            "first_observed": "2024-02-12T14:29:00.000Z",
+            "last_observed": "2024-02-12T14:29:00.000Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--a8f5419a-e8f0-4ada-a418-d26d379d655f",
+            "type": "observed-data",
+            "created_by_ref": "identity-0002",
+            "created": "2024-02-12T14:30:41.401Z",
+            "modified": "2024-02-12T14:30:41.401Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "Event: Potential DoS Attack via Web Server Response Time",
+                    "outcome": "Anomaly",
+                    "category": [
+                        "Time Series"
+                    ],
+                    "provider": "Anomaly Detection Engine",
+                    "agent": "Anomaly Detection Engine-2 :: qconsole",
+                    "created": "2024-02-12T14:28:00.000Z",
+                    "network_ref": "3",
+                    "original_ref": "5"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 53750003,
+                    "category_id": 11003,
+                    "high_level_category_id": 11000,
+                    "log_source_id": 66,
+                    "device_type": 207,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100221",
+                        "100277",
+                        "100272",
+                        "100227",
+                        "100223"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2024-02-12T14:28:00.000Z",
+                    "end": "2024-02-12T14:28:00.000Z",
+                    "dst_ip_ref": "4",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 4,
+                    "severity": 6,
+                    "src_geolocation": "other",
+                    "dst_geolocation": "other",
+                    "rule_names": [
+                        "Destination Asset Weight is Low",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "Load Basic Building Blocks",
+                        "Source Asset Weight is Low",
+                        "Source Address is a Bogon IP"
+                    ]
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_port": 0,
+                    "dst_ref": "4",
+                    "dst_port": 0,
+                    "protocols": [
+                        "hopopt"
+                    ]
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "193.32.162.189"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "AAAACAAAAAcAAAAAAAAAAO+/vSDvv73vv70=",
+                    "mime_type": "text/plain"
+                }
+            },
+            "first_observed": "2024-02-12T14:28:00.000Z",
+            "last_observed": "2024-02-12T14:28:00.000Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--c9464d09-7771-4797-b604-bb376b61d25b",
+            "type": "observed-data",
+            "created_by_ref": "identity-0002",
+            "created": "2024-02-12T14:30:41.401Z",
+            "modified": "2024-02-12T14:30:41.401Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "Event: Potential DoS Attack via Web Server Response Time",
+                    "outcome": "Anomaly",
+                    "category": [
+                        "Time Series"
+                    ],
+                    "provider": "Anomaly Detection Engine",
+                    "agent": "Anomaly Detection Engine-2 :: qconsole",
+                    "created": "2024-02-12T14:28:00.000Z",
+                    "network_ref": "3",
+                    "original_ref": "5"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 53750003,
+                    "category_id": 11003,
+                    "high_level_category_id": 11000,
+                    "log_source_id": 66,
+                    "device_type": 207,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100221",
+                        "100277",
+                        "100272",
+                        "100227",
+                        "100223"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2024-02-12T14:28:00.000Z",
+                    "end": "2024-02-12T14:28:00.000Z",
+                    "dst_ip_ref": "4",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 4,
+                    "severity": 6,
+                    "src_geolocation": "other",
+                    "dst_geolocation": "other",
+                    "rule_names": [
+                        "Destination Asset Weight is Low",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "Load Basic Building Blocks",
+                        "Source Asset Weight is Low",
+                        "Source Address is a Bogon IP"
+                    ]
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_port": 0,
+                    "dst_ref": "4",
+                    "dst_port": 0,
+                    "protocols": [
+                        "hopopt"
+                    ]
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "193.32.162.189"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "AAAABAAAAAcAAAAAAAAAAO+/vSDvv73vv70=",
+                    "mime_type": "text/plain"
+                }
+            },
+            "first_observed": "2024-02-12T14:28:00.000Z",
+            "last_observed": "2024-02-12T14:28:00.000Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--72a9dfef-2f55-4a13-ad76-a86b62d70a94",
+            "type": "observed-data",
+            "created_by_ref": "identity-0002",
+            "created": "2024-02-12T14:30:41.401Z",
+            "modified": "2024-02-12T14:30:41.401Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "Event: Potential DoS Attack via Web Server Response Time",
+                    "outcome": "Anomaly",
+                    "category": [
+                        "Time Series"
+                    ],
+                    "provider": "Anomaly Detection Engine",
+                    "agent": "Anomaly Detection Engine-2 :: qconsole",
+                    "created": "2024-02-12T08:59:00.000Z",
+                    "network_ref": "3",
+                    "original_ref": "5"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 53750003,
+                    "category_id": 11003,
+                    "high_level_category_id": 11000,
+                    "log_source_id": 66,
+                    "device_type": 207,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100221",
+                        "100277",
+                        "100272",
+                        "100227",
+                        "100223"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2024-02-12T08:59:00.000Z",
+                    "end": "2024-02-12T08:59:00.000Z",
+                    "dst_ip_ref": "4",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 4,
+                    "severity": 6,
+                    "src_geolocation": "other",
+                    "dst_geolocation": "other",
+                    "rule_names": [
+                        "Destination Asset Weight is Low",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "Load Basic Building Blocks",
+                        "Source Asset Weight is Low",
+                        "Source Address is a Bogon IP"
+                    ]
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_port": 0,
+                    "dst_ref": "4",
+                    "dst_port": 0,
+                    "protocols": [
+                        "hopopt"
+                    ]
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "193.32.162.189"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "AAAACAAAAAdCeO+/vciK77+9AADvv70g77+977+9",
+                    "mime_type": "text/plain"
+                }
+            },
+            "first_observed": "2024-02-12T08:59:00.000Z",
+            "last_observed": "2024-02-12T08:59:00.000Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--adcdd37d-829b-469d-b7af-f79e575a3711",
+            "type": "observed-data",
+            "created_by_ref": "identity-0002",
+            "created": "2024-02-12T14:30:41.401Z",
+            "modified": "2024-02-12T14:30:41.401Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "Event: Potential DoS Attack via Web Server Response Time",
+                    "outcome": "Anomaly",
+                    "category": [
+                        "Time Series"
+                    ],
+                    "provider": "Anomaly Detection Engine",
+                    "agent": "Anomaly Detection Engine-2 :: qconsole",
+                    "created": "2024-02-12T08:59:00.000Z",
+                    "network_ref": "3",
+                    "original_ref": "5"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 53750003,
+                    "category_id": 11003,
+                    "high_level_category_id": 11000,
+                    "log_source_id": 66,
+                    "device_type": 207,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100221",
+                        "100277",
+                        "100272",
+                        "100227",
+                        "100223"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2024-02-12T08:59:00.000Z",
+                    "end": "2024-02-12T08:59:00.000Z",
+                    "dst_ip_ref": "4",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 4,
+                    "severity": 6,
+                    "src_geolocation": "other",
+                    "dst_geolocation": "other",
+                    "rule_names": [
+                        "Destination Asset Weight is Low",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "Load Basic Building Blocks",
+                        "Source Asset Weight is Low",
+                        "Source Address is a Bogon IP"
+                    ]
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_port": 0,
+                    "dst_ref": "4",
+                    "dst_port": 0,
+                    "protocols": [
+                        "hopopt"
+                    ]
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "193.32.162.189"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "AAAABAAAAAdCeO+/vciK77+9AADvv70g77+977+9",
+                    "mime_type": "text/plain"
+                }
+            },
+            "first_observed": "2024-02-12T08:59:00.000Z",
+            "last_observed": "2024-02-12T08:59:00.000Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--ef6f6aea-a62f-4c9c-aeb9-60c7bc71cf83",
+            "type": "observed-data",
+            "created_by_ref": "identity-0002",
+            "created": "2024-02-12T14:30:41.401Z",
+            "modified": "2024-02-12T14:30:41.401Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "Event: Potential DoS Attack via Web Server Response Time",
+                    "outcome": "Anomaly",
+                    "category": [
+                        "Time Series"
+                    ],
+                    "provider": "Anomaly Detection Engine",
+                    "agent": "Anomaly Detection Engine-2 :: qconsole",
+                    "created": "2024-02-12T04:59:00.000Z",
+                    "network_ref": "3",
+                    "original_ref": "5"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 53750003,
+                    "category_id": 11003,
+                    "high_level_category_id": 11000,
+                    "log_source_id": 66,
+                    "device_type": 207,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100221",
+                        "100277",
+                        "100272",
+                        "100227",
+                        "100223"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2024-02-12T04:59:00.000Z",
+                    "end": "2024-02-12T04:59:00.000Z",
+                    "dst_ip_ref": "4",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 4,
+                    "severity": 6,
+                    "src_geolocation": "other",
+                    "dst_geolocation": "other",
+                    "rule_names": [
+                        "Destination Asset Weight is Low",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "Load Basic Building Blocks",
+                        "Source Asset Weight is Low",
+                        "Source Address is a Bogon IP"
+                    ]
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_port": 0,
+                    "dst_ref": "4",
+                    "dst_port": 0,
+                    "protocols": [
+                        "hopopt"
+                    ]
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "193.32.162.189"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "AAAACAAAAAdCeNm677+9VgAA77+9IO+/ve+/vQ==",
+                    "mime_type": "text/plain"
+                }
+            },
+            "first_observed": "2024-02-12T04:59:00.000Z",
+            "last_observed": "2024-02-12T04:59:00.000Z",
+            "number_observed": 1
+        }
+    ],
+    "spec_version": "2.0"
+}
