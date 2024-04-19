@@ -44,6 +44,14 @@
                         "SHA-224": "040cc0566617d4979b9f20aa57385d0a5b471f1612ecf237afdf57db55bfe2cd"
                     },
                     "type": "file"
+                },
+                "6": {
+                    "value": "103.224.212.210",
+                    "type": "ipv4-addr"
+                },
+                "7": {
+                    "value": "microchips-81792.bond",
+                    "type": "url"
                 }
             },
             "type": "observed-data"
