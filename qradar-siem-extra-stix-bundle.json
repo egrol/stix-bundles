@@ -41,7 +41,7 @@
                 "5": {
                     "name": "svchost.exe",
                     "hashes": {
-                        "SHA-224": "040cc0566617d4979b9f20aa57385d0a5b471f1612ecf237afdf57db55bfe2cd"
+                        "SHA-256": "040cc0566617d4979b9f20aa57385d0a5b471f1612ecf237afdf57db55bfe2cd"
                     },
                     "type": "file"
                 },
@@ -87,7 +87,7 @@
                 "5": {
                     "name": "retence-landfil.urls",
                     "hashes": {
-                        "SHA-224": "6c4E3f590CDFA1cEF2Aec8292b5Aa14A5dc3cEE459aDEC549C56FeFe"
+                        "SHA-256": "6c4E3f590CDFA1cEF2Aec8292b5Aa14A5dc3cEE459aDEC549C56FeFe"
                     },
                     "type": "file"
                 }
@@ -353,7 +353,7 @@
                 "5": {
                     "name": "rumb-profusio.mpls",
                     "hashes": {
-                        "SHA-224": "8f6cbadAEBF5C7EAb6A4ceE2B2db173a9DDAaFfDdDb11Fec6BF226C0"
+                        "SHA-256": "8f6cbadAEBF5C7EAb6A4ceE2B2db173a9DDAaFfDdDb11Fec6BF226C0"
                     },
                     "type": "file"
                 }
@@ -391,7 +391,7 @@
                 "5": {
                     "name": "ibrat.wmz",
                     "hashes": {
-                        "SHA-224": "d6AC6A9D32F5F4FFA9BfA4C852D8F619faAeabF61DEeDB9c94AbAc7B"
+                        "SHA-256": "d6AC6A9D32F5F4FFA9BfA4C852D8F619faAeabF61DEeDB9c94AbAc7B"
                     },
                     "type": "file"
                 }
@@ -543,7 +543,7 @@
                 "5": {
                     "name": "rreste-joule.olb",
                     "hashes": {
-                        "SHA-224": "1BEAce4a7BA98Db9ECF7c6F87bdEa1ffcEcF9A8DefB82b1c953ECFf9"
+                        "SHA-256": "1BEAce4a7BA98Db9ECF7c6F87bdEa1ffcEcF9A8DefB82b1c953ECFf9"
                     },
                     "type": "file"
                 }
