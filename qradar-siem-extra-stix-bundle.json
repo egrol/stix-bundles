@@ -1,0 +1,547 @@
+{
+    "id": "bundle--9ccd6f3e-9285-4fd2-92d2-35717f5758zx",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "name": "QRADAR QROC - StarHub",
+            "identity_class": "events",
+            "type": "identity",
+            "id": "identity--94827a0d-3b16-458f-9100-0d9de36c9b88",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z"
+        },
+        {
+            "id": "observed-data--egte8873-cda1-4802-ab2e-bdb3acbfb961",
+            "number_observed": 1,
+            "first_observed": "20224-04-19T10:13:15.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.87",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "microchips-81792.bond",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:26:d6:b3",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "http://microchips-81792.bond/mY6ij139vJu1rx/tump-register.pgs",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "jwang7",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "svchost.exe",
+                    "hashes": {
+                        "SHA-224": "040cc0566617d4979b9f20aa57385d0a5b471f1612ecf237afdf57db55bfe2cd"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--551ad4ee-325f-401c-b645-887a4a229b6d",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T10:13:15.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.230",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "ugitive.airforce",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:aa:5e:05",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "http://nimosit-tannin-beaver.movie/4Ydf/M3mgO8yuGmB/piritedl-vide-exegetica.aff",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "joebloe",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "retence-landfil.urls",
+                    "hashes": {
+                        "SHA-224": "6c4E3f590CDFA1cEF2Aec8292b5Aa14A5dc3cEE459aDEC549C56FeFe"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--f9a37d69-d4f6-55d8-ag6e-e60a0fad7a62",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T10:13:15.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.62",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "lowe.xn--d1alf",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:4b:fb:39",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "https://isprintin-pursin-plea.fj/86aB778mA/LD6jw9jNKHRV8o1c3o2/dyR9Z0Q5swWh3x77KN/izar-damme.wrp",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "ippe",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "ayabout-microscope-perpetrator.bup",
+                    "hashes": {
+                        "RIPEMD-160": "A4EF9cb01cfAcDF070DE3Ebf21100ecD89cdeb8f"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--df007338-f557-472b-c8c6-6f6721fabe88",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T01:18:17.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.102",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "oo-inques.caseih",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:ba:85:2b",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "http://apture-convert.florist/6/avishe-questioningl.frd",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "nchallenge-sacrist-empire",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "onstituent-intersperse.ul",
+                    "hashes": {
+                        "RIPEMD-160": "D545a7169ea070BA6a0D1A2681DD5Ca0B4A9FdcD"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--87d423fa-9d5b-436e-b53f-d0400bb26c44",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T10:13:15.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.240",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "aving.audio",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:2c:b4:e7",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "https://oc-wondermen.gay/Hl9/onparticipatio.iwp",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "xtradit",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "epartment.hwd",
+                    "hashes": {
+                        "ssdeep": "RW"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--69fd7c8d-5c6b-47ad-787a-d93c394878e9",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T10:13:15.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.205",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "pitap-venerea-lope.org",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:b9:eb:f4",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "http://arable.nr/Askb41v15/iic/himmer-knoll-consula.afs",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "o",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "crub-paraphrase-sedimentar.ps",
+                    "hashes": {
+                        "RIPEMD-160": "5b83ccDe10adaEdEbB0bAAA13e2AbcC5cBd597DA"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--6290ca34-2e66-41ea-934a-43e5a5550a1e7",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T15:17:42.44484Z",
+            "last_observed": "2024-04-19T15:17:42.44484Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.162",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "overt.watches",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:64:68:c6",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "http://tablemat.prod/8J9xAV742Is/TFRsH961maU/473ehAJNpBa8H4/ar.email",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "assel-ers-stocke",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "ryuk-bin.exe",
+                    "hashes": {
+                        "MD5": "5ac0f050f93f86e69026faea1fbb4450"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--db4af2fe-a42c-4723-8c73-530eb26ea0d2",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T16:04:10.00000Z",
+            "last_observed": "2024-04-19T16:04:10.00000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.180",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "ardholder-tinse-pouncin.travel",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:6a:5b:52",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "http://eprogramm-vocatio-tidies.fun/Am96rSoMR6D9L45gb/rowse-referee.ca",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "xposure-copier-storyboo",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "heetah-thro.gdb",
+                    "hashes": {
+                        "RIPEMD-160": "B17A6cd4A6D3f7bfA6ADFAEa2eAC60fC78dC0FcD"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--999ddbed-69d6-4e4a-a174-ff690c9035a6",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T10:13:15.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.175",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "iquefie.xn--czru2d",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:8b:8a:04",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "https://eriodica.pink/e2gC6l9XD9IxkG3gsBwQ/5yve5Pk/ocialise-bucket.dmf",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "uilde-gamekeeper",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "rumb-profusio.mpls",
+                    "hashes": {
+                        "SHA-224": "8f6cbadAEBF5C7EAb6A4ceE2B2db173a9DDAaFfDdDb11Fec6BF226C0"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--c9a3c44c-3d4c-4f7a-999d-4eef3acbc6a1",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T10:13:15.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.173",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "mpose-thermal-jamaica.linde",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:6f:72:72",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "https://uzzle-shrill-eclipse.pics/KcIO2bAwVXi/atalyse-inspire.ptn",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "teamboa-sende-evaluate",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "ibrat.wmz",
+                    "hashes": {
+                        "SHA-224": "d6AC6A9D32F5F4FFA9BfA4C852D8F619faAeabF61DEeDB9c94AbAc7B"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--45613635-4931-40fc-849a-d9aa249c0cc6",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T10:13:15.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.138",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "indin.zip",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:41:6c:6b",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "https://ailorde.lawyer/UfXMZu3x62WZ2qZl0M9/VQpl0IuI06TR/13lJzwO2R6i2/orrificall-bornagai-complimen.bk5",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "ersistentl-demonstrativ-shine",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "rohibi-cordiller-lowe.kpl",
+                    "hashes": {
+                        "RIPEMD-160": "95EFfec6f50Be79603b8e7EACAaCbFc2af07D9eE"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--0810f531-e7yy-47f5-b8a2-d738f232cfe0",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T10:34:03.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.242",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "al-statecraf.mobi",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:ce:7f:2b",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "http://dorou-chimne-unsteadil.aws/p0wK79eY60OhGXkk/07b03/mpoundin-ongoin-bayone.lbm",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "hastlines-choreographi",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "asciviousl-vale.mdz",
+                    "hashes": {
+                        "SHA3-384": "993Dee323700762FA1C33328C9D9fD7Ecd0feF011bDeFBa8DD809b21641eFFe6cb740A574fbC1d7f13bccd9A0c9Cc0ec"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--7e30465f-074e-33da-a7d2-4c64250uu0cb",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T10:13:15.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.156",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "arefulnes-vale-lyris.tn",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:9a:1c:bd",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "http://verpopulate-jac.boats/4tlOc9wzD534b/atitud-bur-bur.xlsx",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "rimaril",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "ryuk-bin.exe",
+                    "hashes": {
+                        "SHA-1": "834d876b47ae8e595ae417a370cd47cc8e061131"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "id": "observed-data--559e1622-4574-4f6f-a0dc-c04eb6efc128",
+            "number_observed": 1,
+            "first_observed": "2024-04-19T11:46:37.000000Z",
+            "last_observed": "2031-08-27T15:49:50.000000Z",
+            "created": "2024-04-19T10:06:15.000Z",
+            "modified": "2024-04-19T10:06:15.000Z",
+            "objects": {
+                "0": {
+                    "value": "192.168.1.170",
+                    "type": "ipv4-addr"
+                },
+                "1": {
+                    "value": "evoltingl-tota.scholarships",
+                    "type": "domain-name"
+                },
+                "2": {
+                    "value": "CC:46:D6:68:74:c6",
+                    "type": "mac-addr"
+                },
+                "3": {
+                    "value": "http://arc.qa/7Bu89P/enunciatio-mushroomin-uncooperativ.wtr",
+                    "type": "url"
+                },
+                "4": {
+                    "user_id": "amentabl",
+                    "type": "user-account"
+                },
+                "5": {
+                    "name": "rreste-joule.olb",
+                    "hashes": {
+                        "SHA-224": "1BEAce4a7BA98Db9ECF7c6F87bdEa1ffcEcF9A8DefB82b1c953ECFf9"
+                    },
+                    "type": "file"
+                }
+            },
+            "type": "observed-data"
+        }
+    ],
+    "type": "bundle"
+}
